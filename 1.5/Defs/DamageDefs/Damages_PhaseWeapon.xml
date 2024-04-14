@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<DamageDef>
+    <defName>DV_PhaseCut</defName>
+    <label>cut</label>
+    <workerClass>DamageWorker_AddInjury</workerClass>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} has been cut to death.</deathMessage>
+    <hediff>DV_PhaseCutHediff</hediff>
+    <impactSoundType>Slice</impactSoundType>
+    <armorCategory>Sharp</armorCategory>
+    <overkillPctToDestroyPart>0.3~0.7</overkillPctToDestroyPart>
+    <isRanged>true</isRanged>
+    <makesAnimalsFlee>true</makesAnimalsFlee>
+  </DamageDef>
+
+  <HediffDef ParentName="InjuryBase">
+    <defName>DV_PhaseCutHediff</defName>
+    <label>cut</label>
+    <labelNoun>a phase cut</labelNoun>
+    <description>A phase blade cut.</description>
+    <comps>
+    <li Class="HediffCompProperties_TendDuration">
+        <labelTendedWell>stitched</labelTendedWell>
+        <labelTendedWellInner>tended</labelTendedWellInner>
+        <labelSolidTendedWell>sutured</labelSolidTendedWell>
+    </li>
+    <li Class="HediffCompProperties_Infecter">
+        <infectionChance>0.02</infectionChance>
+    </li>
+    <li Class="HediffCompProperties_GetsPermanent">
+        <permanentLabel>phase cut scar</permanentLabel>
+    </li>
+    </comps>
+    <injuryProps>
+    <painPerSeverity>0.015</painPerSeverity>
+    <averagePainPerSeverityPermanent>0.00420</averagePainPerSeverityPermanent> <!-- Nice -->
+    <canMerge>true</canMerge>
+    <destroyedLabel>Sliced off (phase)</destroyedLabel>
+    <destroyedOutLabel>Sliced out (phase)</destroyedOutLabel>
+    </injuryProps>
+</HediffDef>
+
+</Defs>
