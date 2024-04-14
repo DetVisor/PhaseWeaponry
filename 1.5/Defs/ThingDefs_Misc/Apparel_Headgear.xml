@@ -7,7 +7,7 @@
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>PoweredArmor</researchPrerequisite>
       <skillRequirements>
-        <Crafting>6</Crafting>
+        <Crafting>5</Crafting>
       </skillRequirements>
       <recipeUsers Inherit="False">
         <li>FabricationBench</li>
@@ -38,17 +38,18 @@
       <ArmorRating_Blunt>0.24</ArmorRating_Blunt>
       <ArmorRating_Heat>0.40</ArmorRating_Heat>
       <Insulation_Cold>2</Insulation_Cold>
-      <Insulation_Heat>5</Insulation_Heat>
+      <Insulation_Heat>10</Insulation_Heat>
       <EquipDelay>2.3</EquipDelay>
     </statBases>
     <equippedStatOffsets>
         <SocialImpact>0.1</SocialImpact>
-      <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.1</SlaveSuppressionOffset>
+        <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.1</SlaveSuppressionOffset>
+        <AimingDelayFactor>-0.2</AimingDelayFactor>
     </equippedStatOffsets>
     <costList>
       <ComponentSpacer>1</ComponentSpacer>
-      <Plasteel>10</Plasteel>
-      <Steel>15</Steel>
+      <Plasteel>15</Plasteel>
+      <Steel>5</Steel>
     </costList>
     <apparel>
       <bodyPartGroups>
