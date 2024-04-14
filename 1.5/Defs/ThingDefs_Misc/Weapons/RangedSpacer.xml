@@ -33,7 +33,7 @@
         </recipeMaker>
         <costList>
           <Plasteel>20</Plasteel>
-          <Silver>5</Silver>
+          <Silver>2.5</Silver>
           <ComponentSpacer>2</ComponentSpacer>
         </costList>
         <thingSetMakerTags>
@@ -174,7 +174,7 @@
         </recipeMaker>
         <costList>
           <Plasteel>30</Plasteel>
-          <Silver>10</Silver>
+          <Silver>5</Silver>
           <ComponentSpacer>2</ComponentSpacer>
         </costList>
         <thingSetMakerTags>
@@ -264,8 +264,8 @@
           <displayPriority>200</displayPriority>
         </recipeMaker>
         <costList>
-          <Steel>50</Steel>
-          <Silver>10</Silver>
+          <Plasteel>50</Plasteel>
+          <Silver>7.5</Silver>
           <ComponentSpacer>3</ComponentSpacer>
         </costList>
         <thingSetMakerTags>

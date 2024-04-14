@@ -5,7 +5,7 @@
     <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-      <researchPrerequisite>PoweredArmor</researchPrerequisite>
+      <researchPrerequisite>ReconArmor</researchPrerequisite>
       <skillRequirements>
         <Crafting>5</Crafting>
       </skillRequirements>
@@ -34,9 +34,9 @@
       <MaxHitPoints>120</MaxHitPoints>
       <Mass>1</Mass>
       <Flammability>0.1</Flammability>
-      <ArmorRating_Sharp>0.45</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.24</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.40</ArmorRating_Heat>
+      <ArmorRating_Sharp>0.60</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.45</ArmorRating_Heat>
       <Insulation_Cold>2</Insulation_Cold>
       <Insulation_Heat>10</Insulation_Heat>
       <EquipDelay>2.3</EquipDelay>
@@ -76,7 +76,7 @@
   <ThingDef ParentName="DV_ApparelRangerHelmetBase">
     <defName>DV_Apparel_RangerHelmet</defName>
     <label>ranger helmet</label>
-    <description>A marine armor helmet, with a built-in status computer and layered plasteel-weave plates.\n\nArmor like this is often used by rapid-incursion space marines.</description>
+    <description>A plasteel-woven mask that fully covers the head, offering good protection against dry desert heat. Its auto-tracking goggles allow the user to aim quickly and shoot swiftly. And with its built-in cowboy hat and breathable mouth cover, it hides its wearer's identity, lending them a mysterious charm.\n\nThis very mystique is found in many outlander folk tales, which speak of men fully clothed in black. Donning this peculiar mask while armed with phase shanks, they appear from the night when needed the most, before leaving at the first glimpse of sunset.</description>
     <apparel>
       <tags>
         <li>SpacerMilitary</li>

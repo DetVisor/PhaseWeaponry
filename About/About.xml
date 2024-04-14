@@ -13,6 +13,13 @@
 		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
 		<li>smartkar.athenaframework</li>
 	</loadAfter>
+	<modDependencies>
+		<li>
+		 <packageId>smartkar.athenaframework</packageId>
+		 <displayName>Athena Framework</displayName>
+		 <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2903359518</steamWorkshopUrl>
+		</li>
+	</modDependencies>
 	<packageId>det.phaseweaponry</packageId>
-	<description>GUNS</description>
+	<description>A mod that adds a small but impactful set of Phase weapons that fire incredibly sharp energy blades capable of penetrating armor and causing some real damage.</description>
 </ModMetaData>
