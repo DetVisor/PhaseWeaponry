@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-<ResearchProjectDef>
+  <ResearchProjectDef>
     <defName>DV_PhaseWeaponsResearch</defName>
     <label>phase-cycler construction</label>
     <description>Craft dangerous phase spacer weapons capable of slicing and cutting limbs with powerful condensed energy blades.</description>
@@ -11,8 +11,8 @@
       <li>AdvancedFabrication</li>
     </prerequisites>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-    <researchViewX>16.00</researchViewX>
-    <researchViewY>1.50</researchViewY>
+    <researchViewX>19.00</researchViewX>
+    <researchViewY>0.20</researchViewY>
   </ResearchProjectDef>
 
 </Defs>

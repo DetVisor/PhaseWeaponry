@@ -12,17 +12,17 @@
 		<li>Ludeon.RimWorld.Biotech</li>
 		<li>smartkar.athenaframework</li>
 		<li>brrainz.harmony</li>
-		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>		
-	</loadAfter>	
+		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+	</loadAfter>
 	<modDependenciesByVersion>
-  <v1.5>
-    <li>
-    		<packageId>smartkar.athenaframework</packageId>
-		  <displayName>Athena Framework</displayName>
-		  <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2903359518</steamWorkshopUrl>
-    </li>
-  </v1.5>
-</modDependenciesByVersion>
+		<v1.5>
+			<li>
+				<packageId>smartkar.athenaframework</packageId>
+				<displayName>Athena Framework</displayName>
+				<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2903359518</steamWorkshopUrl>
+			</li>
+		</v1.5>
+	</modDependenciesByVersion>
 	<packageId>det.phaseweaponry</packageId>
 	<description>A mod that adds a small but impactful set of Phase weapons that fire incredibly sharp energy blades capable of penetrating armor and causing some real damage.</description>
 </ModMetaData>
